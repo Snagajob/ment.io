@@ -602,6 +602,8 @@ angular.module('mentio', [])
                     scope.visible = false;
                     element.css('display', 'none');
                 };
+                
+                scope.hideMenu();
 
                 scope.adjustScroll = function (direction) {
                     var menuEl = element[0];
